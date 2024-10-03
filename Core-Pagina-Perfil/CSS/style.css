@@ -1,0 +1,153 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgreen;
+}
+nav{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+nav > .button-perfil{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 825px;
+
+}
+
+/*BOTONES LUEGO DE "PERFIL*/
+nav > .nav-buttons{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 10px;
+
+    
+}
+
+/*BOTON  CERRAR SESIÓN*/
+nav > .button-off{
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 4px;
+    background-color:lightseagreen;
+    border-radius: 5px;
+    color: white;
+}
+header{ /* solo para hacer la division del color + altura 100px*/
+    background-color: cyan;
+    height: 100px;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+
+}
+
+/* CONTENEDOR DE NOMBRE, REGION, DESCRIPCIÓN, BOTON EDITAR PERFIL Y EDUCACIÓN  */
+.perfil{
+    height: auto;
+    width: 50%;    
+}
+
+section > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    margin: -50px 10px 10px 10px;
+}
+
+/* BOTÓN EDITAR PERFIL */
+div.button{
+    background-color: aliceblue;
+    height: 45px;
+    width: 90px;
+    border-radius: 20PX;
+    box-shadow: black 2px 2px 20px 2px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    
+}
+
+
+/* LATERAL DER. SOLICITUDES DE CONEXIÓN Y CONEXIONES */
+.amigos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: beige;
+    margin: -510px 20px 800px 790px; /* Movido a lateral derecho. SE PODRÍA MEJORAR */
+    padding-right: 50px ;
+    border: 2px solid green
+    
+
+}
+
+/* IMG DE LOS USUARIOS */
+.usuarios{
+    height: 70px;
+    width: 70px;
+}
+
+/* SOLICITUDES DE CONEXIÓN */
+/* .solicitudes{
+    display: flex;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 10px;
+} */
+
+.solicitudes {
+    margin-bottom: 20px; /* Espaciado entre solicitudes */
+}
+.solicitudes img{
+    margin-right: 10px;
+}
+.solicitudes div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.solicitudes div p{
+    margin: 0;
+}
+
+/*TUS CONEXIONES */
+.conexiones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: beige;
+    margin: -780px 20px 800px 790px; /* Movido a lateral derecho. SE PUODRÍA MEJORAR */
+    padding-right: 50px ;
+    border: 2px solid green;
+    /* display: flex;
+    align-items: end; 
+    flex-direction: column;*/
+}
+
+/* ACEPTAR*/
+.amigos > .solicitudes > div > .aceptar{
+    transition: font-size 50px 2s ease;
+}
+.amigos > .solicitudes > div > .aceptar:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+/* RECHAZAR */
+.amigos > .solicitudes > div > .rechazar{
+    transition: font-size 50px 2s ease;
+}
+.amigos > .solicitudes > div > .rechazar:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
