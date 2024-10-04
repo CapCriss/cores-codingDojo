@@ -1,0 +1,45 @@
+header{
+    background-color: greenyellow;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > input{
+    width: 800px;
+}
+
+
+header > nav > #sesion{
+    background-color: dodgerblue;
+    height: 40px;
+    width:  90px;
+    
+}
+section{
+
+}
+section > .gato{
+    height: auto;
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px 20px;
+}
+section > .perro{
+    height: auto;
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px 20px;
+}
+section > .definicion{
+    position: absolute;
+    right: 20px;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    margin: -510px 10px 0 -600px ;
+    padding: 20px 20px;
+}
