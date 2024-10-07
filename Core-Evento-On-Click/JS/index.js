@@ -11,7 +11,7 @@ document.getElementById("sesion").onclick = () => {
 // OCULTAR BOTON DE AGREGAR DEFINICIÓN:
 document.getElementById("add-def").onclick = () => {
     console.log("Click en Agregar Definición");
-    document.getElementById("add-def").style.display = "none"
+    document.getElementById("add-def").style.display = "none";
 }
 
 // ALERTA DE CLICK EN EL BOTON DE ME GUSTA, EN MI CASO ELEGÍ EL DE GOLDEN RETRIVER:
@@ -20,3 +20,6 @@ document.getElementById("mg-perro").onclick = () => {
     alert("Le has dado un me gusta a la raza de perro Golden Retriver ❤️")
     
 }
+
+
+

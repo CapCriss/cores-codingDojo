@@ -1,0 +1,45 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+.perfil{ /* contenedor de las img de perfil */
+    border: 2px solid dodgerblue;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+
+
+}
+.perfil > img{ /* imensiones de la imagen */
+    height: 200px;
+    width: 200px;
+}
+section{
+    
+}
+.contenedor{ /* contiene las publicaciones */
+    
+    margin: -265px 0 0 350px;
+}
+.tuFeed{
+    margin: 10px 0 0 10px;
+}
+.publicaciones{ /* "tarjetas" con los mg */
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    height: 35px;
+    width: 70px;
+    background-color: yellow;
+    border: none;
+}
